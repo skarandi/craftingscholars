@@ -1,2 +1,2 @@
 # craftingscholars
-Tutoring company
+Tutoring company stuff
