@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <style>
+      body{
+        background-color: #ffb1d8;
+      }
+          
+        
+      </style>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="aboutme.html">
+    <link rel="stylesheet" href="faq.html">
+    <link rel="stylesheet" href="contactus.html">
+    <title>Welcome to iamsonali.com</title>
+  </head>
+  <body> 
+        <center><h1>I am Sonali</h1></center>
+    <center>
+    <p><font color="1b1919">
+      <a href = "./index.html">Home</a> | <b>About Sonali</b> | <a href = "./life.html">Life</a>  |<a href = "./vlogs.html">Vlogs</a> | <a href = "./travel.html">Travel</a> | <a href = "./photography.html">Photography</a> | <a href = "./recipes.html">Recipes</a> | <a href = "./myfavoriteproducts.html">Products Review</a> | <a href = "./technews.html">Tech News</a> | <a href = "./faq.html">FAQs</a> |  <a href = "./comments.html">Comments</a> | <a href = "./contactus.html">Contact</a> |
+    </font>
+    </p>
+    </center>
+    
+
+    <center><h2>About Sonali</h2></center>
+    <p>
+        I am a 23 year old web developer based in Parker, Colorado. My 3 passions in life are web/mobile development, travelling, and working with children. 
+    </p>
+
+    
+
+  </body>
+</html>
