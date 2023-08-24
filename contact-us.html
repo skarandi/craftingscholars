@@ -1,45 +1,123 @@
 <!DOCTYPE html>
 <html>
-  
-  <head>
-    <style>
-      body{
-        background-color: #ffb1d8;
+
+<head>
+  <style>
+    body {
+      background-color: #D6EAF8;
+    }
+
+    /* Style the navigation menu */
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+      position: relative;
+      width: 100%;
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+      display: none;
+    }
+
+    /* Style navigation menu links */
+    .topnav a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+    }
+
+    /* Style the hamburger menu */
+    .topnav a.icon {
+      background: black;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    /* Add a grey background color on mouse-over */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+      width: 100%;
+    }
+
+    /* Style the active link (or home/logo) */
+    .active {
+      background-color: #55a9dd;
+      color: white;
+    }
+ 
+
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Crafting Scholars</title>
+
+  <script>
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
       }
-          
-        
-      </style>
-    <meta charset="utf-8">
-    <a href="#about">About Us</a>
-      <a href="#booking">Book A Session</a>
-      <a href="#promos">Special Promotions</a>
-      <a href="#subjects">Subjects Offered</a>
-      <a href="#pricing">Pricing</a>
-      <a href="#private-sessions">Private Sessions</a>
-      <a href="#group-sessions">Group Sessions</a>
-      <a href="#standardized-test-prep">SAT/ACT Test Prep</a>
-      <a href="#testimonials">Testimonials</a>
-      <a href="#faq">FAQs</a>
-      <a href="#join-us">Become A Tutor</a>
-      <a href="#contact-us">Contact Us</a>
-    <title>Welcome to iamsonali.com</title>
+    }
+  </script>
   </head>
-  <body> 
-        <center><h1>I am Sonali</h1></center>
-    <center>
-    <p><font color="1b1919">
-      <a href = "./index.html">Home</a> | <b>About Sonali</b> | <a href = "./about.html">Life</a>  |<a href = "./vlogs.html">Vlogs</a> | <a href = "./travel.html">Travel</a> | <a href = "./photography.html">Photography</a> | <a href = "./recipes.html">Recipes</a> | <a href = "./myfavoriteproducts.html">Products Review</a> | <a href = "./technews.html">Tech News</a> | <a href = "./faq.html">FAQs</a> |  <a href = "./comments.html">Comments</a> | <a href = "./contact-us.html">Contact</a> |
-    </font>
-    </p>
-    </center>
-    
 
-    <center><h2>About Sonali</h2></center>
-    <p>
-        I am a 23 year old web developer based in Parker, Colorado. My 3 passions in life are web/mobile development, travelling, and working with children. 
-    </p>
+  <body>
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
 
-    
+      <a href="#home" class="active">
+        <!-- <img src="CraftingScholars.png" alt="Logo" style="width:300px;height:300px;"> -->
+        <div>Crafting Scholars</div>
 
-  </body>
+
+
+      </a>
+
+      <!-- Navigation links (hidden by default) -->
+  </center>
+    <div id="myLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="booking.html">Book A Session</a>
+      <a href="promos.html">Special Promotions</a>
+      <a href="subjects.html">Subjects Offered</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="private-sessions.html">Private Sessions</a>
+      <a href="group-sessions.html">Group Sessions</a>
+      <a href="standardized-test-prep.html">SAT/ACT Test Prep</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="faq.html">FAQs</a>
+      <a href="join-us.html">Become A Tutor</a>
+      <a href="contact-us.html">Contact Us</a>
+    </div>
+  
+
+
+
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div>
+
+    </div>
+    <div>
+      <center>
+        <h2>Contact Us</h2>
+      </center>
+    </div>
+  
+
+ 
+
 </html>
