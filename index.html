@@ -12,6 +12,7 @@
       overflow: hidden;
       background-color: #333;
       position: relative;
+      width: 100%;
     }
 
     /* Hide the links inside the navigation menu (except for logo/home) */
@@ -41,20 +42,43 @@
     .topnav a:hover {
       background-color: #ddd;
       color: black;
+      width: 100%;
     }
 
     /* Style the active link (or home/logo) */
     .active {
-      background-color: #046aaa;
+      background-color: #55a9dd;
       color: white;
     }
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Crafting Scholars</title>
+
+  <script>
+    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+</head>
+
+<body>
   <!-- Top Navigation Menu -->
   <div class="topnav">
-  <a href="#home" class="active">
-    <img src="" alt="Crafting Scholars" width="500" height="600"> 
-  </a>
+    
+    <a href="#home" class="active">
+      <!-- <img src="CraftingScholars.png" alt="Logo" style="width:300px;height:300px;"> -->
+       <div>Crafting Scholars</div>
+     
+
+
+    </a>
     <!-- Navigation links (hidden by default) -->
     <div id="myLinks">
       <a href="#about">About Us</a>
@@ -75,28 +99,9 @@
       <i class="fa fa-bars"></i>
     </a>
   </div>
-
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="main.css">
-  <link rel="stylesheet" href="aboutme.html">
-  <link rel="stylesheet" href="faq.html">
-  <link rel="stylesheet" href="contactus.html">
-  <title>Crafting Scholars</title>
-
-  <script>
-    /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-    function myFunction() {
-      var x = document.getElementById("myLinks");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-    }
-  </script>
-</head>
-
-<body>
+  <div>
+    
+  </div>
   <div>
     <center>
       <h2>Crafting Knowledge, Crafting Futures: Where Tales of Success Begin</h2>
@@ -104,9 +109,19 @@
   </div>
   <center>
     <!-- Add font awesome icons -->
-    <a href="#" class="fa fa-facebook"></a>
-    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-facebook" style="font-size:20px" ></a>
+    <a href="#" class="fa fa-twitter" style="font-size:20px" ></a>
+    <a href="#" class="fa fa-instagram" style="font-size:20px" ></a>
     <div style="font-size: small;">Powered By: Crafting Fairytales</div>
+    <br>
+  </center>
+
+  <div> 
+
+  </div>
+  </body>
+  <center>
+    <img src="flyer.png" alt="Flyer" style="width:500px;height:600px;">
   </center>
 </body>
 
